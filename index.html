@@ -19,26 +19,26 @@
   <body>
     <header class="page-header">
       <div class="container">
-        <nav class="nav">
+        <nav class="nav page-header__nav">
           <a class="logo" href="./index.html"
             ><span class="logo-studio">Web</span>Studio</a
           >
-          <ul class="menu list-nav-header">
-            <li class="menu-item">
+          <ul class="menu list-nav__header">
+            <li class="menu__item">
               <a class="link nav-decoration" href="#about">Студия</a>
             </li>
-            <li class="menu-item">
+            <li class="menu__item">
               <a class="link header-decoration" href="./portfolio.html"
                 >Портфолио</a
               >
             </li>
-            <li class="menu-item">
+            <li class="menu__item">
               <a class="link header-decoration" href="#contacts">Контакты</a>
             </li>
           </ul>
         </nav>
         <ul class="menu list">
-          <li class="menu-item">
+          <li class="menu__item">
             <a class="link" href="mailto:info@devstudio.com">
               <svg class="auth-nav-icon" width="16" height="12">
                 <use href="./images/icons/sprite.svg#icon-envelope-hover"></use>
@@ -46,7 +46,7 @@
               info@devstudio.com
             </a>
           </li>
-          <li class="menu-item">
+          <li class="menu__item">
             <a class="link" href="tel:+380961111111">
               <svg class="auth-nav-icon" width="10" height="16">
                 <use href="./images/icons/sprite.svg#icon-Vector"></use>
@@ -58,63 +58,63 @@
       </div>
     </header>
     <main>
-      <section class="dark-section">
+      <section class="block block--dark-section">
         <div class="hero">
-          <h1 class="page-title hero">
+          <h1 class="page-title__hero">
             Эффективные решения для вашего бизнеса
           </h1>
-          <button class="btn hero-order" type="button" data-modal-open>
+          <button class="btn__hero" type="button" data-modal-open>
             Заказать услугу
           </button>
         </div>
       </section>
       <section class="section about" id="about">
         <div class="container">
-          <ul class="list card-set">
-            <li class="item-noshadow about-item">
-              <div class="about-icons-link">
+          <ul class="list about__card-set card-set">
+            <li class="item-noshadow about__item">
+              <div class="about__icons-link">
                 <svg class="about-icons-svg">
                   <use href="./images/icons/sprite2.svg#icon-antenna-1"></use>
                 </svg>
               </div>
-              <h3 class="about-title-item">Внимание к деталям</h3>
-              <p class="about-item">
+              <h3 class="about-title__item">Внимание к деталям</h3>
+              <p class="about__item">
                 Идейные соображения, а также начало повседневной работы по
                 формированию позиции.
               </p>
             </li>
-            <li class="item-noshadow about-item">
-              <div class="about-icons-link">
+            <li class="item-noshadow about__item">
+              <div class="about__icons-link">
                 <svg class="about-icons-svg">
                   <use href="./images/icons/sprite2.svg#icon-clock-1"></use>
                 </svg>
               </div>
-              <h3 class="about-title-item">Пунктуальность</h3>
-              <p class="about-item">
+              <h3 class="about-title__item">Пунктуальность</h3>
+              <p class="about__item">
                 Задача организации, в особенности же рамки и место обучения
                 кадров влечет за собой.
               </p>
             </li>
-            <li class="item-noshadow about-item">
-              <div class="about-icons-link">
+            <li class="item-noshadow about__item">
+              <div class="about__icons-link">
                 <svg class="about-icons-svg">
                   <use href="./images/icons/sprite2.svg#icon-diagram-1"></use>
                 </svg>
               </div>
-              <h3 class="about-title-item">Планирование</h3>
-              <p class="about-item">
+              <h3 class="about-title__item">Планирование</h3>
+              <p class="about__item">
                 Равным образом консультация с широким активом в значительной
                 степени обуславливает.
               </p>
             </li>
-            <li class="item-noshadow about-item">
-              <div class="about-icons-link">
+            <li class="item-noshadow about__item">
+              <div class="about__icons-link">
                 <svg class="about-icons-svg">
                   <use href="./images/icons/sprite2.svg#icon-astronaut-1"></use>
                 </svg>
               </div>
-              <h3 class="about-title-item">Современные технологии</h3>
-              <p class="about-item">
+              <h3 class="about-title__item">Современные технологии</h3>
+              <p class="about__item">
                 Значимость этих проблем настолько очевидна, что реализация
                 плановых заданий.
               </p>
@@ -125,8 +125,8 @@
       <section id="portfolio" class="gallery">
         <div class="container">
           <h2 class="section-title">Чем мы занимаемся</h2>
-          <ul class="list card-set">
-            <li class="item-noshadow gallery-item">
+          <ul class="list gallery__card-set card-set">
+            <li class="item-noshadow gallery__item">
               <div class="card-thumb">
                 <img
                   src="./images/about/img-1.jpg"
@@ -139,7 +139,7 @@
                 </div>
               </div>
             </li>
-            <li class="item-noshadow gallery-item">
+            <li class="item-noshadow gallery__item">
               <div class="card-thumb">
                 <img
                   src="./images/about/img-2.jpg"
@@ -152,7 +152,7 @@
                 </div>
               </div>
             </li>
-            <li class="item-noshadow gallery-item">
+            <li class="item-noshadow gallery__item">
               <div class="card-thumb">
                 <img
                   src="./images/about/img-3.jpg"
@@ -171,22 +171,22 @@
       <section class="section team">
         <div class="container">
           <h2 class="section-title">Наша команда</h2>
-          <ul class="list card-set">
-            <li class="item">
+          <ul class="list team__card-set card-set">
+            <li class="item__team">
               <img
                 src="./images/team/img1.jpg"
                 width="270"
                 height="260"
                 alt="Игорь Демьяненко"
               />
-              <div class="team-name">
-                <h3 class="team-name-item">Игорь Демьяненко</h3>
-                <p class="team-job-item" lang="en">Product Designer</p>
+              <div class="team__name">
+                <h3 class="team__name-item">Игорь Демьяненко</h3>
+                <p class="team__job-item" lang="en">Product Designer</p>
                 <ul class="list social-icons">
-                  <li class="social-icons-item">
+                  <li class="social-icons__item">
                     <a
                       href=""
-                      class="social-icons-link"
+                      class="social-icons__link"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -197,10 +197,10 @@
                       </svg>
                     </a>
                   </li>
-                  <li class="social-icons-item">
+                  <li class="social-icons__item">
                     <a
                       href=""
-                      class="social-icons-link"
+                      class="social-icons__link"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -211,10 +211,10 @@
                       </svg>
                     </a>
                   </li>
-                  <li class="social-icons-item">
+                  <li class="social-icons__item">
                     <a
                       href=""
-                      class="social-icons-link"
+                      class="social-icons__link"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -225,10 +225,10 @@
                       </svg>
                     </a>
                   </li>
-                  <li class="social-icons-item">
+                  <li class="social-icons__item">
                     <a
                       href=""
-                      class="social-icons-link"
+                      class="social-icons__link"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -242,21 +242,21 @@
                 </ul>
               </div>
             </li>
-            <li class="item">
+            <li class="item__team">
               <img
                 src="./images/team/img2.jpg"
                 width="270"
                 height="260"
                 alt="Ольга Репина"
               />
-              <div class="team-name">
-                <h3 class="team-name-item">Ольга Репина</h3>
-                <p class="team-job-item" lang="en">Frontend Developer</p>
+              <div class="team__name">
+                <h3 class="team__name-item">Ольга Репина</h3>
+                <p class="team__job-item" lang="en">Frontend Developer</p>
                 <ul class="list social-icons">
-                  <li class="social-icons-item">
+                  <li class="social-icons__item">
                     <a
                       href=""
-                      class="social-icons-link"
+                      class="social-icons__link"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -267,10 +267,10 @@
                       </svg>
                     </a>
                   </li>
-                  <li class="social-icons-item">
+                  <li class="social-icons__item">
                     <a
                       href=""
-                      class="social-icons-link"
+                      class="social-icons__link"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -281,10 +281,10 @@
                       </svg>
                     </a>
                   </li>
-                  <li class="social-icons-item">
+                  <li class="social-icons__item">
                     <a
                       href=""
-                      class="social-icons-link"
+                      class="social-icons__link"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -295,10 +295,10 @@
                       </svg>
                     </a>
                   </li>
-                  <li class="social-icons-item">
+                  <li class="social-icons__item">
                     <a
                       href=""
-                      class="social-icons-link"
+                      class="social-icons__link"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -312,21 +312,21 @@
                 </ul>
               </div>
             </li>
-            <li class="item">
+            <li class="item__team">
               <img
                 src="./images/team/img3.jpg"
                 width="270"
                 height="260"
                 alt="Николай Тарасов"
               />
-              <div class="team-name">
-                <h3 class="team-name-item">Николай Тарасов</h3>
-                <p class="team-job-item" lang="en">Marketing</p>
+              <div class="team__name">
+                <h3 class="team__name-item">Николай Тарасов</h3>
+                <p class="team__job-item" lang="en">Marketing</p>
                 <ul class="list social-icons">
-                  <li class="social-icons-item">
+                  <li class="social-icons__item">
                     <a
                       href=""
-                      class="social-icons-link"
+                      class="social-icons__link"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -337,10 +337,10 @@
                       </svg>
                     </a>
                   </li>
-                  <li class="social-icons-item">
+                  <li class="social-icons__item">
                     <a
                       href=""
-                      class="social-icons-link"
+                      class="social-icons__link"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -351,10 +351,10 @@
                       </svg>
                     </a>
                   </li>
-                  <li class="social-icons-item">
+                  <li class="social-icons__item">
                     <a
                       href=""
-                      class="social-icons-link"
+                      class="social-icons__link"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -365,10 +365,10 @@
                       </svg>
                     </a>
                   </li>
-                  <li class="social-icons-item">
+                  <li class="social-icons__item">
                     <a
                       href=""
-                      class="social-icons-link"
+                      class="social-icons__link"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -382,21 +382,21 @@
                 </ul>
               </div>
             </li>
-            <li class="item">
+            <li class="item__team">
               <img
                 src="./images/team/img4.jpg"
                 width="270"
                 height="260"
                 alt="Михаил Ермаков"
               />
-              <div class="team-name">
-                <h3 class="team-name-item">Михаил Ермаков</h3>
-                <p class="team-job-item" lang="en">UI Designer</p>
+              <div class="team__name">
+                <h3 class="team__name-item">Михаил Ермаков</h3>
+                <p class="team__job-item" lang="en">UI Designer</p>
                 <ul class="list social-icons">
-                  <li class="social-icons-item">
+                  <li class="social-icons__item">
                     <a
                       href=""
-                      class="social-icons-link"
+                      class="social-icons__link"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -407,10 +407,10 @@
                       </svg>
                     </a>
                   </li>
-                  <li class="social-icons-item">
+                  <li class="social-icons__item">
                     <a
                       href=""
-                      class="social-icons-link"
+                      class="social-icons__link"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -421,10 +421,10 @@
                       </svg>
                     </a>
                   </li>
-                  <li class="social-icons-item">
+                  <li class="social-icons__item">
                     <a
                       href="facebook.com"
-                      class="social-icons-link"
+                      class="social-icons__link"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -435,10 +435,10 @@
                       </svg>
                     </a>
                   </li>
-                  <li class="social-icons-item">
+                  <li class="social-icons__item">
                     <a
                       href=""
-                      class="social-icons-link"
+                      class="social-icons__link"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -457,77 +457,77 @@
       </section>
     </main>
     <section class="section customers">
-      <div class="container customers-items">
+      <div class="container customers__items">
         <h2 class="section-title">Постоянные клиенты</h2>
-        <ul class="list customers-icons">
-          <li class="customers-icons-item">
+        <ul class="list customers__icons">
+          <li class="customers__icons-item">
             <a
               href=""
-              class="customers-icons-link"
+              class="customers__icons-link"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <svg class="customers-icons-svg">
+              <svg class="customers__icons-svg">
                 <use href="./images/icons/sprite.svg#icon-Logo"></use>
               </svg>
             </a>
           </li>
-          <li class="customers-icons-item">
+          <li class="customers__icons-item">
             <a
               href=""
-              class="customers-icons-link"
+              class="customers__icons-link"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <svg class="customers-icons-svg">
+              <svg class="customers__icons-svg">
                 <use href="./images/icons/sprite.svg#icon-Logo-1"></use>
               </svg>
             </a>
           </li>
-          <li class="customers-icons-item">
+          <li class="customers__icons-item">
             <a
               href=""
-              class="customers-icons-link"
+              class="customers__icons-link"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <svg class="customers-icons-svg">
+              <svg class="customers__icons-svg">
                 <use href="./images/icons/sprite.svg#icon-Logo-2"></use>
               </svg>
             </a>
           </li>
-          <li class="customers-icons-item">
+          <li class="customers__icons-item">
             <a
               href=""
-              class="customers-icons-link"
+              class="customers__icons-link"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <svg class="customers-icons-svg">
+              <svg class="customers__icons-svg">
                 <use href="./images/icons/sprite.svg#icon-Logo-3"></use>
               </svg>
             </a>
           </li>
-          <li class="customers-icons-item">
+          <li class="customers__icons-item">
             <a
               href=""
-              class="customers-icons-link"
+              class="customers__icons-link"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <svg class="customers-icons-svg">
+              <svg class="customers__icons-svg">
                 <use href="./images/icons/sprite.svg#icon-Logo-4"></use>
               </svg>
             </a>
           </li>
-          <li class="customers-icons-item">
+          <li class="customers__icons-item">
             <a
               href=""
-              class="customers-icons-link"
+              class="customers__icons-link"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <svg class="customers-icons-svg">
+              <svg class="customers__icons-svg">
                 <use href="./images/icons/sprite.svg#icon-Logo-5"></use>
               </svg>
             </a>
@@ -557,11 +557,11 @@
         </div>
         <div class="invite-section">
           <h3 class="invite-item">присоединяйтесь</h3>
-          <ul class="list social-icons-footer">
-            <li class="social-icons-item-footer">
+          <ul class="list social-icons__footer">
+            <li class="social-icons__item-footer">
               <a
                 href=""
-                class="invite-icons-link-footer"
+                class="invite-icons-link__footer"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -570,10 +570,10 @@
                 </svg>
               </a>
             </li>
-            <li class="social-icons-item-footer">
+            <li class="social-icons__item-footer">
               <a
                 href=""
-                class="invite-icons-link-footer"
+                class="invite-icons-link__footer"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -582,10 +582,10 @@
                 </svg>
               </a>
             </li>
-            <li class="social-icons-item-footer">
+            <li class="social-icons__item-footer">
               <a
                 href=""
-                class="invite-icons-link-footer"
+                class="invite-icons-link__footer"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -594,10 +594,10 @@
                 </svg>
               </a>
             </li>
-            <li class="social-icons-item-footer">
+            <li class="social-icons__item-footer">
               <a
                 href=""
-                class="invite-icons-link-footer"
+                class="invite-icons-link__footer"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -646,7 +646,7 @@
             </h2>
 
             <form class="modal-form">
-              <div class="modal-form-name mf-margin">
+              <div class="modal-form__name mf-margin">
                 <label for="mf-name" class="mf-label">Имя</label>
                 <div class="mf-element">
                   <svg class="mf-svg">
@@ -656,13 +656,19 @@
                     type="text"
                     name="name"
                     id="mf-name"
-                    class="mf-input-boder mf-input-height mf-input-text mf-padding-svg mf-input-point"
+                    class="
+                      mf__input-boder
+                      mf__input-height
+                      mf__input-text
+                      mf-padding-svg
+                      mf__input-point
+                    "
                     autofocus
                   />
                 </div>
               </div>
 
-              <div class="modal-form-tel mf-margin">
+              <div class="modal-form__tel mf-margin">
                 <label for="mf-tel" class="mf-label">Телефон</label>
                 <div class="mf-element">
                   <svg class="mf-svg">
@@ -672,12 +678,18 @@
                     type="tel"
                     name="tel"
                     id="mf-tel"
-                    class="mf-input-boder mf-input-height mf-input-text mf-padding-svg mf-input-point"
+                    class="
+                      mf__input-boder
+                      mf__input-height
+                      mf__input-text
+                      mf-padding-svg
+                      mf__input-point
+                    "
                   />
                 </div>
               </div>
 
-              <div class="modal-form-email mf-margin">
+              <div class="modal-form__email mf-margin">
                 <label for="mf-email" class="mf-label">Почта</label>
                 <div class="mf-element">
                   <svg class="mf-svg">
@@ -687,17 +699,23 @@
                     type="email"
                     name="email"
                     id="mf-email"
-                    class="mf-input-boder mf-input-height mf-input-text mf-padding-svg mf-input-point"
+                    class="
+                      mf__input-boder
+                      mf__input-height
+                      mf__input-text
+                      mf-padding-svg
+                      mf__input-point
+                    "
                   />
                 </div>
               </div>
 
-              <div class="modal-form-comment mf-element mf-margin-comment">
+              <div class="modal-form__comment mf-element mf-margin-comment">
                 <label for="mf-comment" class="mf-label">Комментарий</label>
                 <textarea
                   name="comment"
                   id="mf-comment"
-                  class="mf-textarea mf-input-point"
+                  class="mf-textarea mf__input-point"
                   rows="10"
                   placeholder="Введите текст"
                 ></textarea>
