@@ -39,8 +39,8 @@
   display: block;
 }
 
-.team__name-portfolio-link:hover .team--thumb-description,
-.team__name-portfolio-link:focus .team--thumb-description {
+.team__name-portfolio-link:hover .team__thumb-description,
+.team__name-portfolio-link:focus .team__thumb-description {
   transform: translateY(0);
 }
 

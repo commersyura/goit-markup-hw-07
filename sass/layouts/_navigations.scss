@@ -2,13 +2,13 @@
   margin-right: auto;
   align-items: center;
 }
-.nav-decoration {
+.link--nav-decoration {
   color: #2196f3;
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.nav-decoration::after {
+.link--nav-decoration::after {
   content: "";
   position: absolute;
   width: 100%;
@@ -17,7 +17,7 @@
   border-radius: 2px;
   margin-bottom: -93px;
 }
-.list-nav__header {
+.menu__list {
   list-style: none;
   padding-left: 0;
   align-items: center;

@@ -19,13 +19,13 @@
   <body>
     <header class="page-header">
       <div class="container page-header__container">
-        <nav class="nav page-header__nav">
-          <a class="logo" href="./index.html"
+        <nav class="nav">
+          <a class="logo page-header__logo" href="./index.html"
             ><span class="logo-studio">Web</span>Studio</a
           >
-          <ul class="menu list-nav__header">
+          <ul class="menu menu__list">
             <li class="menu__item">
-              <a class="link nav-decoration" href="#about">Студия</a>
+              <a class="link link--nav-decoration" href="#about">Студия</a>
             </li>
             <li class="menu__item">
               <a class="link header-decoration" href="./portfolio.html"
@@ -37,9 +37,9 @@
             </li>
           </ul>
         </nav>
-        <ul class="menu list">
-          <li class="menu__item">
-            <a class="link" href="mailto:info@devstudio.com">
+        <ul class="menu list contacts__list">
+          <li class="menu__item contacts__item">
+            <a class="link contacts__link" href="mailto:info@devstudio.com">
               <svg class="auth-nav-icon" width="16" height="12">
                 <use href="./images/icons/sprite.svg#icon-envelope-hover"></use>
               </svg>
@@ -47,7 +47,7 @@
             </a>
           </li>
           <li class="menu__item">
-            <a class="link" href="tel:+380961111111">
+            <a class="link contacts__link" href="tel:+380961111111">
               <svg class="auth-nav-icon" width="10" height="16">
                 <use href="./images/icons/sprite.svg#icon-Vector"></use>
               </svg>
@@ -58,9 +58,9 @@
       </div>
     </header>
     <main>
-      <section class="block block--dark-section">
-        <div class="hero">
-          <h1 class="page-title__hero">
+      <section class="block block__dark-section">
+        <div class="hero__container">
+          <h1 class="hero__page-title">
             Эффективные решения для вашего бизнеса
           </h1>
           <button class="btn__hero" type="button" data-modal-open>
@@ -69,7 +69,7 @@
         </div>
       </section>
       <section class="section about" id="about">
-        <div class="container">
+        <div class="container about__list">
           <ul class="list about__card-set card-set">
             <li class="item-noshadow about__item">
               <div class="about__icons-link">
@@ -124,7 +124,7 @@
       </section>
       <section id="portfolio" class="gallery">
         <div class="container">
-          <h2 class="section-title">Чем мы занимаемся</h2>
+          <h2 class="section__title">Чем мы занимаемся</h2>
           <ul class="list gallery__card-set card-set">
             <li class="item-noshadow gallery__item">
               <div class="card-thumb">
@@ -170,7 +170,7 @@
       </section>
       <section class="section team">
         <div class="container">
-          <h2 class="section-title">Наша команда</h2>
+          <h2 class="section__title">Наша команда</h2>
           <ul class="list team__card-set card-set">
             <li class="item__team">
               <img
@@ -458,7 +458,7 @@
     </main>
     <section class="section customers">
       <div class="container customers__items">
-        <h2 class="section-title">Постоянные клиенты</h2>
+        <h2 class="section__title">Постоянные клиенты</h2>
         <ul class="list customers__icons">
           <li class="customers__icons-item">
             <a
